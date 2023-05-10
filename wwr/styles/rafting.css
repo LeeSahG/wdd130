@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+:root {
+    --primary-color: #172815;
+    --secondary-color: #DFFDFF;
+    --accent1-color: #D5E1A3;
+    --accent2-color: #E2F89C;
+
+    --heading-font: 
+}
+
+.hero img {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.hero p {
+    position: absolute;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
