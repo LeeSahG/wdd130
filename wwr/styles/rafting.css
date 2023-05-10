@@ -10,8 +10,8 @@
 }
 
 .hero img {
-    width: fit-content;
-    height: fit-content;
+    width: auto;
+    height: auto;
     position: relative;
     display: block;
     float: right;
@@ -27,4 +27,28 @@
 
 .hero article {
     position: absolute;
+}
+
+main {
+    border: #172815;
+    max-width: 700px;
+    text-align: center;
+    margin: 1em;
+    color: white;
+}
+
+article img {
+width: 20rem;
+height: auto;
+}
+
+div {
+    max-width: fit-content;
+    max-height: fit-content;
+    background: transparent;
+}
+
+section img {
+    width: 50rem;
+    height: auto;
 }
