@@ -21,8 +21,8 @@ h1 {
     border-bottom: black 2rem;
 }
 main img {
-    width: 100px;
-    height: fit-content;
+    width: 150px;
+    height: 150px;
     border: 1px solid purple;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -44,11 +44,6 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
-}
-
-main img {
-    width: 150px;
     height: auto;
 }
 
