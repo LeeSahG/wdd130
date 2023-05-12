@@ -13,9 +13,12 @@ nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 200;
 }
 h1 {
     color: steelblue;
+    border-bottom: black 2rem;
 }
 main img {
     width: 100px;
@@ -28,10 +31,6 @@ main img {
 
 p {
     padding: 20px;
-}
-
-main {
-    max-width: 700px;
 }
 
 aside {
@@ -82,3 +81,33 @@ aside h2 {
     left: 180px;
     color: rgb(248, 215, 232);
 }
+
+header, footer, .grid {
+    max-width: 840px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: midnightblue;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto;
+}
+
+/* main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+} */
