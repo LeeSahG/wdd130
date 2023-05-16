@@ -7,47 +7,42 @@ box-sizing: border-box;
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
-    font-size: 1.5rem;
-    font-weight: 200;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 h1 {
-    color: steelblue;
+    color: navy;
     border-bottom: black 2rem;
+    margin-top: 2rem;
 }
+main {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 main img {
     width: 150px;
-    height: 150px;
+    height: auto;
     border: 1px solid purple;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right
 }
 
-p {
-    padding: 20px;
+p {padding: 0;
+
 }
-
-aside {
-    margin: 1em;
-    border: 1px solid rgba(0,0,0,0.2);
-    padding: 1em;
-    background-color: lightslategray;
-    color: black;
-    text-align: center;
-}
-
-/* aside img {
-    width: 200px;
-    height: auto;
-} */
-
-p {padding: 0;}
 
 footer {
     margin-top: 1em;
@@ -61,25 +56,35 @@ footer {
     border: 1px solid magenta;
     padding: 1rem;
     background-color: powderblue;
-    color: black
+    color: black;
+    width: 250px;
+    height: 400px;
 }
 
 aside {
+   grid-column: 1/2;
+   grid-row: 1/2;
    width: 30em;
    text-align: center; 
    position: relative;
 }
 
+aside img {
+    width: 200px;
+    height: auto;
+    text-align: center;
+}
+
 aside h2 {
     position: absolute;
     top: 30px;
-    left: 180px;
+    left: 75px;
     color: rgb(248, 215, 232);
 }
 
 header, footer, .grid {
     max-width: 840px;
-    text-align: center;
+    margin: 0 auto;
 }
 
 nav {
@@ -91,18 +96,24 @@ nav {
 
 .grid {
     display: grid;
-    align-items: center;
-    grid-template-columns: auto auto;
+    grid-gap: 2em;
+    grid-template-columns: 1fr 2fr;
 }
 
-/* main {
-    grid-column: 2/3;
+.grid li {
+    margin-left: 15px;
+}
+
+.grid img {
+    margin: 15px 25px 25px 15px;
+} 
+
+.links {
     margin: 1rem;
+    border: 1px solid magenta;
+    padding: 1rem;
+    background-color: powderblue;
+    color: black;
+    width: 250px;
+    height: 100px;
 }
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-} */
