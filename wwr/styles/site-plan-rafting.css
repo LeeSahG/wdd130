@@ -1,5 +1,4 @@
-@import url("https://coolors.co/3e5622-dffdff-172815-90a959-a7c957");
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
 
 :root {
     --primary-color: #172815;
@@ -7,23 +6,29 @@
     --accent1-color: #D5E1A3;
     --accent2-color: #E2F89C;
 
-    --heading-font: 
+    --heading-font: ;
+    --paragraph-font: "Verdana", sans-serif;
+
+    --nav-background-color: ;
+    --nav-link-color: blue;
+    --nav-hover-link-color: pink;
+    --nav-hover-background-color: pink;
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(--"Verdana", sans-serif);
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: var(--primary-color)
+    font-family: "Mogra", cursive;
+    color: var(#172815)
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent2-color);
+    background-color: var(#172815);
 }
 
 p {
@@ -31,19 +36,23 @@ p {
 }
 
 nav {
-    background-color: var(--secondary-color);
+    background-color: var(#D5E1A3);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--secondary-color);
+    color: var(blue);
     text-decoration: none;
     padding: 1rem;
 }
 
+nav a:link, nav a:visited {
+    color: blue;
+}
+
 nav a:hover {
-    color: aliceblue;
-    background-color: var(--secondary-color);
+    color: var(pink);
+    background-color: var(pink);
 }
