@@ -1,34 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
 :root {
-    --primary-color: #172815;
-    --secondary-color: #DFFDFF;
-    --accent1-color: #D5E1A3;
-    --accent2-color: #E2F89C;
+    --primary-color: #2e4756;
+    --secondary-color: #34D1BF;
+    --accent1-color: #B88C9E;
+    --accent2-color: #F3C98B;
 
     --heading-font: ;
     --paragraph-font: "Verdana", sans-serif;
 
     --nav-background-color: ;
-    --nav-link-color: blue;
-    --nav-hover-link-color: pink;
-    --nav-hover-background-color: pink;
+    --nav-link-color: magenta;
+    --nav-hover-link-color: green;
+    --nav-hover-background-color: green;
 }
 
 body {
     font-family: var(--"Verdana", sans-serif);
     max-width: 960px;
     padding: 20px;
+    background-color: #F3C98B;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Mogra", cursive;
-    color: var(#172815)
+    color: var(#2e4756)
 }
 
 header {
     padding: 20px;
-    background-color: var(#172815);
+    background-color: var(#2e4756);
+    font-family: "Play", sans-serif;
 }
 
 p {
@@ -36,23 +39,22 @@ p {
 }
 
 nav {
-    background-color: var(#D5E1A3);
+    background-color: var(#B88C9E);
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(blue);
+    color: var(magenta);
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: blue;
+    color: magenta;
 }
 
 nav a:hover {
-    color: var(pink);
-    background-color: var(pink);
+    color: var(steelblue);
 }
