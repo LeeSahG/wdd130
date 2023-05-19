@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
 
 :root {
     --primary-color: #172815;
@@ -31,16 +31,11 @@
 
 main {
     border: #172815;
-    max-width: 700px;
+    max-width: 900px;
     text-align: center;
     margin: 1em;
     color: white;
 }
-
-/* article img {
-    width: 20rem;
-    height: auto;
-} */
 
 div {
     max-width: fit-content;
@@ -58,19 +53,18 @@ header {
     grid-template-columns: 200px 1fr;
     align-items: center;
     grid-gap: 30px;
-    border-bottom: 2px solid #172815;
+    border-bottom: 2px solid slateblue;
 }
 
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: right;
 }
 
 .adventure {
-    display: grid;
-    grid-template-columns: 50px 50px 100px 50px 50px;
-    justify-content: space-evenly;
-    align-items: center;
+    grid-column-end: auto;
+    /* display: inline-block; */
+    size: 1fr 1fr 1fr 1fr 1fr;
 }
