@@ -29,42 +29,13 @@ nav {
     align-items: right;
 }
 
-main div img {
-    display: grid;
-    grid-row: 50px;
-    align-content: center;
-}
-
 main {
     border: #172815;
-    max-width: 950px;
+    max-width: 1050px;
     text-align: left;
     margin: auto;
     color: black;
     padding: 20px;
-}
-
-.hero {
-    display: block;
-    background-color: #E2F89C;
-    max-width: 950px;
-}
-
-.hero img {
-    margin: auto;
-    left: 50px;
-    width: 350px;
-    border: solid #172815;
-    padding: 15px;
-}
-
-.hero p {
-    color: black;
-    text-align: center;
-}
-
-.hero h1, .adventure h2, h2 {
-    font-family: "Mogra", sans-serif;
 }
 
 section {
@@ -81,4 +52,38 @@ section {
     display: inline-flexbox;
     size: 1fr 1fr 1fr 1fr 1fr;
     border: solid #172815;
+}
+
+.employees {
+    display: flexbox;
+    flex-direction: row;
+    margin: auto;
+}
+
+table, td {
+    border: 2px solid #172815;
+}
+
+thead {
+    background-color: #DFFDFF;
+}
+
+tr {
+    text-align: center;
+}
+
+iframe {
+    float: right;
+    margin-right: 400px;
+}
+
+form {
+    display: grid;
+    flex-direction: .5rem;
+    margin: 0.5rem;
+    padding: 15px;
+}
+
+button {
+    background-color: #DFFDFF;
 }
