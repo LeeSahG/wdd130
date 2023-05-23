@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Mogra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
 
 :root {
-    --primary-color: #172815;
-    --secondary-color: #DFFDFF;
-    --accent1-color: #D5E1A3;
-    --accent2-color: #E2F89C;
+    --primary-color: #2e4756;
+    --secondary-color: #34D1BF;
+    --accent1-color: #B88C9E;
+    --accent2-color: #F3C98B;
 
-    --heading-font: 
+    --paragraph-font: "Play", sans-serif;
+    --heading-font:  "Mogra", cursive;
 }
 
 body {
-    background-color: aquamarine;
+    background-color: #F3C98B;
 }
 
 header {
@@ -18,7 +20,8 @@ header {
     grid-template-columns: 200px 1fr;
     align-items: center;
     grid-gap: 30px;
-    border-bottom: 2px solid slateblue;
+    border-bottom: 2px solid #2e4756;
+    font-family: "Play", sans-serif;
 }
 
 nav {
@@ -36,16 +39,33 @@ main {
     margin: auto;
     color: black;
     padding: 20px;
+    font-family: "Play", sans-serif;
+}
+
+.hero {
+    background-color: whitesmoke;
+    padding: 35px;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1, h2 {
+    font-family: "Mogra", sans-serif;
 }
 
 section {
-    background-color: #D5E1A3;
+    background-color: whitesmoke;
     text-align: justify;
+    padding: 35px;
 }
 
 .adventure {
     margin: auto;
-    padding: 15px;
+    padding: 35px;
 }
 
 .adventure img {
