@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Righteous&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background: #96705b;
+    padding: 0 20px;
+}
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #f7d488;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 20px 20px 20px #684756;
+}
+
+.wrapper .title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    color: #96705b;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.wrapper .form .input .submit{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background: #96705b;
+}
