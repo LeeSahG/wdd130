@@ -43,28 +43,61 @@ main {
 }
 
 .hero {
-    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
     padding: 35px;
+    margin: auto;
+    color: #DFFDFF;
+}
+
+div .hero {
+    position: relative;
 }
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 300px;
+    float: right;
     height: auto;
+}
+
+.hero h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    position: absolute;
+}
+
+article {
+    position: absolute;
 }
 
 h1, h2 {
     font-family: "Mogra", sans-serif;
 }
 
+h2 {
+    color: #2e4756;
+}
+
 section {
+    width: 100%;
     background-color: whitesmoke;
     text-align: justify;
     padding: 35px;
 }
 
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
 .adventure {
+    display: flexbox;
+    justify-content: space-between;
     margin: auto;
+    width: 100%;
     padding: 35px;
 }
 
