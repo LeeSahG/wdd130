@@ -64,7 +64,8 @@ div .hero {
     float: right;
     height: auto;
     right: 100px;
-    box-shadow: 0 0 15px;
+    margin-right: 150px;
+    padding: 10px;
 }
 
 .hero h1 {
