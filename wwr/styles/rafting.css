@@ -150,3 +150,56 @@ form {
 button {
     background-color: #DFFDFF;
 }
+
+/* Trips page stylesheet */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #F3C98B;
+    
+}
+
+.card {
+    background-color: #80eb74;
+    width: 250px;
+    height: 470px;
+    margin: 10px;
+    border-radius: 15px 15px 15px 15px;
+    padding: 10px;
+}
+
+.card-image {
+    background-color: black;
+    height: 150px;
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card .flower1 img {
+    width: 100%;
+}
+
+.card .flower2 img {
+    width: 100%;
+}
+
+div .card .flower3 {
+    width: 100%;
+}
+
+.card:hover {
+    background-color: #172815;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+}
