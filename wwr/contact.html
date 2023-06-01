@@ -20,42 +20,43 @@
         </nav>
     </header>
 <main>
-    <section class="employees">
-        <h1>About Our Employees</h1>
-        <article>
-        <img src="images/accountant.jpg" alt="we rafters accountant" width="200"> 
-        <p>I am Zane Barn, the We Rafters accountant.</p>
-        <p>I make sure that every penny ensures our clients</p>
-        <p>to have an explosive adventure.</p>
-        </article>
+   <table class="employees">
 
-        <article>
-        <img src="images/marketing-expert.jpg" alt="we rafters marketing expert" width="200">
-        <p>I am Yami Kamoto, the We Rafters marketing expert.</p>
-        <p>make sure that everyone gets an unforgettable ride by</p>
-        <p>making sure everyone knows about us.</p>
-        </article>
+    <tr>
+    <th>The Accountant</th>
+    <th>The Marketing Expert</th>
+    <th>The Secretary</th>
+    <th>The Raft Guide</th>
+    </tr>
+    <tr>
+        <td><img src="images/accountant.jpg" alt="we rafters accountant" width="200"></td>
+        <td><img src="images/marketing-expert.jpg" alt="we rafters marketing expert" width="200"></td>
+        <td><img src="images/secretary.jpg" alt="we rafters secretary" width="200"></td>
+        <td><img src= "images/raft-guide.jpg" alt="we rafters raft guide" width="200"></td>
+    </tr>
+    <tr>
+        <td>I am Zane Barn, the We Rafters accountant.
+            I make sure that every penny ensures our clients
+            to have an explosive adventure.</td>
 
-        <article>
-        <img src="images/secretary.jpg" alt="we rafters secretary" width="200">
-        <p>I am Olly Jamica, the We Rafters secretary. I make</p>
-        <p>sure every client's amazing journey is documented,</p>
-        <p>ensure We Rafters runs smoothly.</p>
-        </article>
+        <td>I am Yami Kamoto, the We Rafters marketing expert.
+            make sure that everyone gets an unforgettable ride by
+            making sure everyone knows about us.</td>
+    
+        <td>I am Olly Jamica, the We Rafters secretary. I make
+            sure every client's amazing journey is documented,
+            ensure We Rafters runs smoothly.</td>
 
-        <article>
-        <img src="images/raft-guide.jpg" alt="we rafters raft guide" width="200">
-        <p>I am Zena Loftus, the We Rafters guide. I lead you</p>
-        <p>through the exhilarating course and ensure you enjoy</p>
-        <p>every moment.</p>
-        </article>
-    </section>
+        <td>I am Zena Loftus, the We Rafters guide. I lead you
+            through the exhilarating course and ensure you enjoy
+            every moment.</td>
+    </tr>
+   </table>
 
-    <table>
-        <h1>Get in touch with us</h1>
+    <table class="touch">
         <thead>
             <tr>
-                <th colspan="3">Our contact details</th>
+                <th colspan="4">Our contact details</th>
             </tr>
         </thead>
         <tbody>
@@ -63,8 +64,9 @@
                 <td>Tshatshu, KWT</td>
                 <td>+27 81 421 6444</td>
                 <td>findus@werafters.com</td>
+                <td><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d652.3719600961717!2d27.424762673605564!3d-32.92107101636071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1684605813135!5m2!1sen!2sza" width="80" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td>
             </tr>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d652.3719600961717!2d27.424762673605564!3d-32.92107101636071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sza!4v1684605813135!5m2!1sen!2sza" width="80" height="80" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </tbody>
     </table>
 
@@ -90,9 +92,9 @@
             <label for="message">Type Your Message Here:</label>
             <textarea id="message" name="message" rows="5" placeholder="..."></textarea>
 
-            <label for="newsletter">Sign me up for monthly newsletters</label>
             <input type="checkbox" id="newsletter" name="newsletter">
-
+            <label for="newsletter">Sign me up for monthly newsletters</label>
+        
             <button type="submit">Submit</button>
 
         </fieldset>
